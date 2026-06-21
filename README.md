@@ -12,12 +12,15 @@
 |---|---|---|
 | import 기본 세트 | `java.util.*`, `java.io.*` 코테 시작 전 무조건 추가 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/1) |
 
+
 ⬆ [목차로 돌아가기](#목차)
 
 ### Java 문법
 
 | 개념 | 기억포인트 | 링크 |
 |---|---|---|
+| 최대/최소 구하기 | `Math.max(a,b)/min(a,b)`로 2개 비교, 배열은 `arr[0] or MIN/MAX_VALUE`로 초기화 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/2) |
+
 
 
 ⬆ [목차로 돌아가기](#목차)
