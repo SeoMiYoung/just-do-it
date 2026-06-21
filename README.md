@@ -59,7 +59,7 @@
 | String.replace() | * 문자열 그대로 찾아서 교체(정규식 아님), 빈문자열("")로 바꾸면 제거 효과<br/>* 원본 불변 → 반드시 `s = s.replace(...)`로 재할당해야 적용됨<br/>* 활용: 제거 전후 `length()` 차이로 제거된 개수 계산 가능 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/41) |
 | 2차원 배열 초기화 (원시 vs 참조타입) | * 원시타입(int 등): 선언만으로 기본값 자동 초기화, 바로 사용 가능<br/>* 참조타입(String, Set 등): 선언 직후 전부 `null` <br/>　→ 각 칸에 `new` 직접 해줘야 함<br/>　- 안 하고 쓰면 NullPointerException<br/>* Set/List 같은 제네릭은 `new Set<T>[N][N]` 자체가 컴파일 에러<br/>　→ `new HashSet[N][N]`처럼 Raw Type으로 생성(경고만 뜸, 비대칭 선언) | [정리](https://github.com/SeoMiYoung/just-do-it/issues/42) |
 | if-else if-else | * else는 선택사항, 안 써도 문법적으로 문제없음<br/>* 모든 조건이 false면 그냥 아무것도 실행 안 하고 넘어감 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/43) |
-| toString() | * `println(객체)`는 내부적으로 `객체.toString()` 자동 호출<br/>* 오버라이드 안 하면 `클래스명@해시값` 형태로 출력됨 (의미없는 값)<br/>* 커스텀 클래스 만들 때 `@Override toString()` 정의하면 원하는 형태로 출력 가능<br/>* List/배열도 내부 요소마다 toString() 호출해서 출력 (`[(1,2), (3,4)]`) | [정리](https://github.com/SeoMiYoung/just-do-it/issues/44) |
+| toString() | * `println(객체)`는 내부적으로 `객체.toString()` 자동 호출<br/>* 오버라이드 안 하면 `클래스명@해시값` 형태로 출력됨 (의미없는 값)<br/>* 커스텀 클래스 만들 때<br/>　→ `@Override toString()` 정의하면 원하는 형태로 출력 가능<br/>* List/배열도 내부 요소마다 toString() 호출해서 출력 (`[(1,2), (3,4)]`) | [정리](https://github.com/SeoMiYoung/just-do-it/issues/44) |
 
 
 
