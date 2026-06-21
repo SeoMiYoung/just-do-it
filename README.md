@@ -23,6 +23,7 @@
 | Integer.parseInt() | * `문자열→int` 변환<br/>* 공백 있으면 예외 → `trim()` 먼저 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/3) |
 | split() | * 문자열을 구분자로 잘라 `String[]` 반환<br/>* 끝 공백 보존하려면 `split(" ", -1)` | [정리](https://github.com/SeoMiYoung/just-do-it/issues/4) |
 | println/printf/String.format | * `println` 자동줄바꿈·포맷X<br/>* `printf` 포맷팅+즉시출력<br/>* `String.format`은 문자열로 반환만 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/5) |
+| toUpperCase/toLowerCase | * `Character.toUpperCase()`(char), `s.toUpperCase()`(String) 둘 다 지원<br/>* 알파벳만 영향, 숫자·공백은 그대로 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/6) |
 
 
 ⬆ [목차로 돌아가기](#목차)
