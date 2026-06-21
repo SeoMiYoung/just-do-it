@@ -1,9 +1,19 @@
 # Java, only for Coding Tests
 
 ## 목차
+- [🧰 코테 준비물](#-코테-준비물)
 - [☕ Java 문법](#-java-문법)
 - [🧩 알고리즘](#-알고리즘)
 - [📐 수학](#-수학)
+
+### 코테 준비물
+
+| 개념 | 기억포인트 | 링크 |
+|---|---|---|
+| Deque | Stack+Queue 둘 다 필요할 때 | [정리](링크) |
+| charAt vs substring | charAt은 char 1개, substring은 String 범위 | [정리](링크) |
+
+⬆ [목차로 돌아가기](#목차)
 
 ### Java 문법
 
