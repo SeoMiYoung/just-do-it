@@ -73,7 +73,7 @@
 | 다익스트라 vs 플로이드워셜 | * 다익스트라: 단일 출발점→모든 정점, O((V+E)logV), 음수 가중치 불가<br/>* 플로이드워셜: 모든 정점 쌍, O(V³), 음수 가중치 허용(음의 사이클은 불가)<br/>* 선택 기준<br/>　- 정점 많고 간선 적음 + 출발점 하나 → 다익스트라<br/>　- 정점 적음(≤100) + 모든 쌍 필요 → 플로이드워셜 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/36) |
 | 1차원→2차원 배열 변환 | * `n = (int)Math.sqrt(arr.length)`로 한 변의 길이 구함<br/>* `matrix[i/n][i%n] = arr[i]`로 순서대로 배치<br/>　- i/n: 몇 번째 행인지, i%n: 그 행의 몇 번째 칸인지 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/38) |
 | BFS 연결요소 크기 | * 큐에 넣을 때 `visited=true` 표시 → 중복 방문 차단<br/>* count는 "꺼낼 때"(poll 시점) 증가<br/>　- visited 덕분에 각 칸은 딱 한 번만 큐에 들어갔다 나옴<br/>　→ 꺼낸 횟수 = 방문한 칸 수 = 연결된 영역 크기 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/45) |
-| 투포인터 vs 슬라이딩 윈도우 | * "연속된 구간(부분배열/부분수열)"을 다루는 문제 | [정리](https://github.com/SeoMiYoung/just-do-it/issues/47) |
+| 투포인터 |  | [정리](https://github.com/SeoMiYoung/just-do-it/issues/47) |
 
 
 
